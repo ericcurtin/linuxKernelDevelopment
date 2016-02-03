@@ -1,0 +1,14 @@
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+
+# If you want to do a quick clone without history
+# git clone --depth 1 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+
+# Check what branch I'm on and what local branches are available
+git branch
+
+# Create new branch and switch to it
+git checkout -b (name of new branch)
+
+# Commit all changes (shortcut, skip add part)
+git commit -a -s -v
+
